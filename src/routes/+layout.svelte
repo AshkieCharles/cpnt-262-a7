@@ -5,10 +5,9 @@
   import Card from '../lib/components/Card.svelte';
 	
 	let secList = [
-		{ name: 'Alfred', species: 'Dog', href: '/' },
-		{ name: 'Elvira', species: 'Cat', href: '/' },
-		{ name: 'Sally', species: 'Crow', href: '/' },
-		{ name: 'Gus', species: 'Ferret', href: '/' }
+		{ name: 'Ace of Spades', species: 'Dog', href: '/' },
+		{ name: 'Excalibur', species: 'Cat', href: '/' },
+		{ name: 'Lightsaber', species: 'Crow', href: '/' },
 	];
 </script>
 
@@ -27,10 +26,12 @@
 
 
 <section>
-	<h2 class="text-3xl">Mythical Weapons</h2>
+	<h2 class="text-3xl">Fictional Weapons</h2>
 	<ul>
 		{#each secList as { href, name, species }}
-			<ListItem bgColor="bg-blue-200"><a {href}>{name} is a {species} </a></ListItem>
+			<ListItem bgColor="bg-blue-200"><a href>
+			<header><h1>{name}</h1></header>
+			 is a {species} <img src="../images/Ace.png" alt=""></a></ListItem>
 		{/each}
 	</ul>
 </section>
