@@ -18,7 +18,8 @@ h2 {
 img {
   display: flex;
   margin: auto;
-
+  overflow: hidden;
+  max-width: 50vw;
 }
 
 p {
