@@ -1,4 +1,4 @@
-{
+{	"types": "module",
 	"name": "cards-components-assignment",
 	"version": "0.0.1",
 	"private": true,
