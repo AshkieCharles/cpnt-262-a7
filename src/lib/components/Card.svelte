@@ -6,14 +6,13 @@
 <section>
 	<h2 class="text-3xl">Fictional Weapons</h2>
 	<ul>
-		{#each weaponList as { href, name, description, pic}}
+		{#each weaponList as { href, name, description, pic, attribute}}
 		<a {href}>
 				<div class="cards">
 						<header><h2>{name}</h2></header>
-				<img src={pic} alt="">
-				
+				<img src={pic} alt={attribute}>
 				<p>
-						{description}
+					{description}
 				 </p>
 				</div>
 		</a>
