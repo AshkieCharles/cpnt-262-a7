@@ -1,9 +1,8 @@
-import { title } from "process";
-
-export let weaponList = [
+let weaponList = [
   {weapon: "Excalibur", desc: "The legendary weapon of King Arthur.", src:"../images/Excalibur.png", website: "https://fireandsteel.ca/products/fate-stay-night-sabers-excalibur"}
 ]
 
 
 
+export default weaponList
 

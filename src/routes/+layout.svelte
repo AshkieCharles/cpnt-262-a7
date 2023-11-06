@@ -1,13 +1,13 @@
 <script>
 	import '../app.css';
 	import Header from '../lib/components/Header.svelte';
-  import ListItem from '../lib/components/ListItem.svelte';
   import Card from '../lib/components/Card.svelte';
+	import Footer from '../lib/components/Footer.svelte';
 	
 	let secList = [
-		{ name: 'Ace of Spades', species: 'Dog', href: '/' },
-		{ name: 'Excalibur', species: 'Cat', href: '/' },
-		{ name: 'Lightsaber', species: 'Crow', href: '/' },
+		{ name: 'Ace of Spades', species: 'Dog', href: '/', pic: 'Ace' },
+		{ name: 'Excalibur', species: 'Cat', href: '/', pic: 'Excalibur' },
+		{ name: 'Lightsaber', species: 'Crow', href: '/', pic: 'Lightsaber' },
 	];
 </script>
 
@@ -29,11 +29,20 @@
 	<h2 class="text-3xl">Fictional Weapons</h2>
 	<ul>
 		{#each secList as { href, name, species }}
-			<ListItem bgColor="bg-blue-200"><a href>
-			<header><h1>{name}</h1></header>
-			 is a {species} <img src="../images/Ace.png" alt=""></a></ListItem>
+		<a href>
+			<div class="cards">
+				<header><h2>{name}</h2></header>
+			<img src="../images/Lightsaber.png"alt=""> 
+			<p>
+				{species}
+			 </p>
+			</div>
+		</a>
+
 		{/each}
 	</ul>
 </section>
 
 <Card />
+
+<Footer />

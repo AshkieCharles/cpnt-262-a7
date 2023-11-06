@@ -1,7 +1,4 @@
 <script>
-  import weaponList from '../data.js'
+  import weaponList from "../data.js"
 </script>
 
-<div>
-  s
-</div>
