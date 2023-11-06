@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
 	import Header from '../lib/components/Header.svelte';
+
   import Card from '../lib/components/Card.svelte';
 	import Footer from '../lib/components/Footer.svelte';
 	
@@ -30,17 +31,17 @@
 	<ul>
 		{#each secList as { href, name, species }}
 		<a href>
-			<div class="cards">
-				<header><h2>{name}</h2></header>
-			<img src="../images/Lightsaber.png"alt=""> 
-			<p>
-				{species}
-			 </p>
-			</div>
+				<div class="cards">
+						<header><h2>{name}</h2></header>
+				<img src="../images/Lightsaber.png"alt=""> 
+				<p>
+						{species}
+				 </p>
+				</div>
 		</a>
 
 		{/each}
-	</ul>
+</ul>
 </section>
 
 <Card />

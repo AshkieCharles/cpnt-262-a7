@@ -1,3 +1,5 @@
+
+
 ul {
   list-style: none;
 }
@@ -5,6 +7,8 @@ ul {
 a {
   text-decoration: none;
   color: black;
+  
+  
 }
 h2 {
   text-align: center;
@@ -14,15 +18,15 @@ h2 {
 img {
   display: flex;
   margin: auto;
+
 }
 
 p {
   color: #000;
   display: block;
-  padding: 0 65px 0 0;
   text-decoration: none;
-  width:100%;
   text-align:center;
+  
 }
 
 .cards{
@@ -30,5 +34,6 @@ p {
   background-color: aqua;
   text-align: center;
   margin:auto;
-  margin-right: 3rem;
+  border-radius: 5%;
+  margin-top: 5rem;
 }
