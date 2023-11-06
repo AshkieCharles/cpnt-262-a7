@@ -26,6 +26,8 @@ p {
   display: block;
   text-decoration: none;
   text-align:center;
+  font-size: large;
+  padding: 2rem;
   
 }
 
@@ -37,3 +39,4 @@ p {
   border-radius: 5%;
   margin-top: 5rem;
 }
+

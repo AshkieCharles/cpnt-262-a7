@@ -3,6 +3,4 @@ let weaponList = [
 ]
 
 
-
-export default weaponList
-
+export {weaponList}
