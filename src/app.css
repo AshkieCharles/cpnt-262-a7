@@ -10,7 +10,8 @@ ul {
 a {
   text-decoration: none;
   color: black;
-  
+  max-width: fit-content;
+  position: sticky;
   
 }
 h2 {
@@ -22,7 +23,7 @@ img {
   display: flex;
   margin: auto;
   overflow: hidden;
-  max-width: 50vw;
+  max-width: 45ch;
 }
 
 p {
@@ -36,12 +37,12 @@ p {
 }
 
 .cards{
+  
   justify-content: center;
   background-color: aqua;
   text-align: center;
   margin:auto;
   border-radius: 5%;
-  margin-top: 5rem;
-  margin-right: 0.5rem;
+  max-width: 50%;
 }
 
