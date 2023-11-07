@@ -1,4 +1,4 @@
-<script>
+<script type="module">
 	const navItems = [
 		{ name: 'Home', href: '/' },
 		{ name: 'About', href: '/' },

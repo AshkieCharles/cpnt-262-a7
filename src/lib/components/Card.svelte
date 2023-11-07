@@ -1,4 +1,4 @@
-<script>
+<script type="module">
   import {weaponList} from "../data.js";
 </script>
 
