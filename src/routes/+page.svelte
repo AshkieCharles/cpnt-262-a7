@@ -8,6 +8,5 @@
 </script>
 
 
-<Header />
-<slot />
-<Footer />
+
+<Card />

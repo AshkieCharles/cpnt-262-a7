@@ -7,10 +7,10 @@
 	
 </script>
 
+<Header />
 <slot />
 
 
 
 
-<Card />
 <Footer />
