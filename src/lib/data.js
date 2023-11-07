@@ -8,5 +8,4 @@ let weaponList = [
 	];
 
 
-
 export {weaponList}
