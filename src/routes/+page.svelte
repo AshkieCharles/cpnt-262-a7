@@ -6,11 +6,7 @@
 </script>
 
 
-<Header />
-
-
 
 
 
 <Card />
-<Footer />
