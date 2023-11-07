@@ -13,3 +13,4 @@
 - [Exportiing Specific Functions](https://youtube.com/shorts/FGSEmGEP_78?si=iCY6gay3e6TMtGkj)
 - [Components and Props](https://www.youtube.com/watch?v=JpbgBJZTvuM&t=61s)
 - [Using Components](https://www.youtube.com/watch?v=ykkGhU79FpQ&t=296s)
+-[Hovering](https://stackoverflow.com/questions/44815768/how-to-change-the-text-color-of-a-div-on-hover)

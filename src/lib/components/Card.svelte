@@ -4,7 +4,7 @@
 
 
 <section>
-	<h2 class="text-3xl">Fictional Weapons</h2>
+	<h2 class="title">Fictional Weapons</h2>
 	<ul>
 		{#each weaponList as { href, name, description, pic, attribute}}
 		<div class="cards">
