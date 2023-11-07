@@ -1,6 +1,9 @@
 ### CPNT-262(Web Developer Fast Track)
 ## Assignment 5 - Components and Props
 ## Ashkie Esperanza
+## Links
+- [GH Pages](https://ashkiecharles.github.io/cpnt-262-a7/)
+- [Netlify](https://cpnt-262-cards.netlify.app/)
 
 ## Search Queries
 ### Search Topic One
