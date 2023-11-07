@@ -7,10 +7,10 @@
 
 
 <Header />
-<slot />
 
 
 
 
-<Footer />
+
 <Card />
+<Footer />
