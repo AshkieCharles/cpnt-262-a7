@@ -8,7 +8,7 @@
     display: flex;
     background-color:black;
     color: white;
-    padding: 4px;
+    padding: 0;
   }
 </style>
 
