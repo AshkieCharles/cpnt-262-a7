@@ -1,9 +1,19 @@
 <style>
-  footer{
-    background-color: black;
+  .bottom {
+    display: flex;
+    margin: auto;
+  }
+
+  footer {
+    display: flex;
+    background-color:black;
+    color: white;
+    padding: 4px;
   }
 </style>
 
 <footer>
-  This is a footer
+  <div class="bottom">
+    &copy; Ashkie Esperanza
+  </div>
 </footer>

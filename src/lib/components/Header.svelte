@@ -1,7 +1,9 @@
 <script>
 	const navItems = [
 		{ name: 'Home', href: '/' },
-		{ name: 'About', href: '/' }
+		{ name: 'About', href: '/' },
+    { name: 'Contact Us', href: '/' },
+    { name: 'Donate', href: '/' }
 	];
 </script>
 
@@ -18,19 +20,19 @@
 <style>
   nav {
     display: flex;
+    margin: auto;
   }
 
   header {
     display: flex;
     background-color:black;
     color: white;
-    justify-content: space-between;
     padding: 4px;
   }
   ul {
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    gap: 10rem;
     list-style: none;
     margin-right: 5px;
   }
